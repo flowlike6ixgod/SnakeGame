@@ -1,0 +1,12 @@
+﻿  GameCore.cpp
+  Fruit.cpp
+E:\C++Projects\SnakeGame\SnakeGame\Food\Fruit.cpp(9,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\C++Projects\SnakeGame\SnakeGame\Food\Fruit.cpp(23,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  main.cpp
+  Map.cpp
+  Snake.cpp
+  Menu.cpp
+  ScoreBoard.cpp
+  UI.cpp
+  Generating Code...
+  SnakeGame.vcxproj -> E:\C++Projects\SnakeGame\x64\Debug\SnakeGame.exe

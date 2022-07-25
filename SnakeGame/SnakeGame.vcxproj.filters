@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{d091bc8e-8e7f-4d0d-a789-f78ece265569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{f2dcd20f-eb75-446e-9daa-a2fa44e6002d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9d279a4e-6d72-42fa-b8d2-377281199334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{1d259d56-6220-4f09-a26b-cdefe4006c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Snake">
+      <UniqueIdentifier>{1a23af23-f8de-4647-a13a-43cd6167aa0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Food">
+      <UniqueIdentifier>{059f961a-616d-47dc-a39a-048573e79080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2af889f7-1a3f-406a-85bf-b5bc6772ac30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\GameCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps\Map.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Menu.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ScoreBoard.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake\Snake.cpp">
+      <Filter>Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="Food\Fruit.cpp">
+      <Filter>Food</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\GameCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\Map.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Menu.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ScoreBoard.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\GameCoord.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\EnumLib.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake\Snake.h">
+      <Filter>Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="Food\Fruit.h">
+      <Filter>Food</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
